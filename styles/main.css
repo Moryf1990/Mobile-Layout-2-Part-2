@@ -60,6 +60,36 @@ header {
 	width: 18.875em;
 	height: 4.25em;
 }
+
+.para-section {
+	height: 11.875em;
+	background: #E8F0F5;
+}
+
+.big-grey {
+	height: 98.5625em;
+	background: #D1D3D7;
+	padding-top: 2em;
+}
+
+.big-white {
+	background: white;
+	margin: 0 1em;
+	height: 13.5em;
+}
+
+.big-white2 {
+	background: white;
+	margin: 0 1em;
+	margin-top: 2em;
+	color: #fff;
+	height: 13.5em;
+}
+
+.bottom-section {
+	height: 10.625em;
+	background: #E8F0F5;
+}
 /*.div {
 	height: 4em;
 	background: #fff;
