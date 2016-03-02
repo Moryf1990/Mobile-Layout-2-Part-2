@@ -185,6 +185,9 @@ span {
 	background: #C7D2D8;
 	height: 3.875em;
 	width: 3.875em;
+	padding-left: 0.75em;
+	padding-top: 1em;
+	border-radius: 3em;
 }
 
 .grey-rectangle1 {
@@ -244,7 +247,7 @@ button  h3 {
 }
 
 .footer {
-	height: 8.125em;
+	height: 10em;
 	background: #000;
 	text-align: center;
 	padding-top: 1.625em;
@@ -255,13 +258,15 @@ a {
 	margin-left: 1em;
 }
 
-.automatic {
-	height: 1.5em;
+/*.automattic {
+	height: 100%;
 	background: #fff;
-	width: 8.25em;
+	background-image: url("../images/automattic.png");
+	background-repeat: no-repeat;
+	width: 100%;
 	margin-top: 2em;
-	margin: 0 auto;
-}
+}*/
+
 /*.div {
 	height: 4em;
 	background: #fff;
