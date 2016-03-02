@@ -14,7 +14,11 @@ header > a {
 	background: #0070A3;
 	text-decoration: none;
 	display: inline-block;
-	padding: 1.5em;
+	padding: 2.1em;
+}
+
+span {
+	color: #82BDD7;
 }
 
 .light-blue-header {
@@ -33,10 +37,13 @@ header > a {
 
 .large-white-bar {
 	height: 2.125em;
-	background: #fff;
+	background: #118BC0;
+	/*background: #fff;*/
+	text-align: center;
+	font-size: 1.5em;
+	color: #fff;
 	width: 10.4375em;
 	float: left;
-	margin-left: 1em;
 }
 
 .section1 {
@@ -75,44 +82,61 @@ header > a {
 	margin-top: 13.25em;
 }
 
-.image-text1 {
+.feature-wrapper {
+	padding-top: 7.375em;
+	width: 25em;
 	margin: 0 auto;
-	height: 4.375em;
-	background: #fff;
-	margin-top: 7.375em;
-	width: 24.875em;
-	height: 4.25em;
+	overflow: hidden;
 }
+.feature-wrapper section {
+ overflow: hidden;
+ margin-bottom: 1em;
+}
+
+
 
 .image-text2 {
 	margin: 0 auto;
-	height: 4.375em;
-	background: #fff;
 	margin-top: 2em;
 	width: 24.875em;
-	height: 4.25em;
+	background-color: red;
+	overflow: hidden;
+	/*padding: .5em;*/
 }
 
 .left-gray-border {
 	width: 4em;
-	height: 3.5em;
-	background: #616E7F;
-	border-top: 0.75em solid #fff;
+	height: 6em;
+	/*padding: 1em;*/
+	background: #fff;
 	float: left;
 }
 
-.right-gray-border {
-	background: #616E7F;
-	height: 3.25em;
-	width: 20em;
-	border-bottom: 1em solid white;
-	float: right;
-	border-right: 0.3em solid white;
+.text {
+	color: #D5D6D2;
+}
+
+.right-gray-border  {
+	/*border-bottom: 1em solid white;*/
+	float: left;
+	width: 19em;	
+	color: #fff;
+	margin-left: 2em ;
+	/*border-right: 0.3em solid white;*/
 }
 
 .para-section {
-	height: 11.875em;
+	padding-top: 1em;
+	/*height: 11.875em;*/
 	background: #E8F0F5;
+	height: 100%;
+}
+
+.para {
+	text-align: center;
+	font-size: 2em;
+	color: #31415A;
+	word-spacing: 0.25em;
 }
 
 .big-grey {
@@ -136,7 +160,10 @@ header > a {
 }
 
 .grey-rectangle1 {
-	background: #C7D2D8;
+	/*background: #C7D2D8;*/
+	text-align: center;
+	color: #426277;
+	font-weight: bold;
 	height: 1.4375em;
 	width: 90%;
 	margin: 0 auto;
@@ -144,8 +171,11 @@ header > a {
 }
 
 .grey-rectangle2 {
-	background: #C7D2D8;
+	/*background: #C7D2D8;*/
 	height: 4em;
+	text-align: center;
+	font-size: 1.2em;
+	color: black;
 	width: 90%;
 	margin: 0 auto;
 	margin-top: 1em;
