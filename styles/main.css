@@ -4,7 +4,30 @@ body {
 
 header {
 	height: 3em;
+	background: #0070A4;
+}
+
+.light-blue-header {
 	background: #118BC0;
+	height: 3em;
+	margin-right: 4.625em;
+	padding-left: 1em;
+	padding-top: 0.5em;
+}
+
+.small-white-bar {
+	height: 2.125em;
+	background: #fff;
+	width: 2em;
+	float: left;
+}
+
+.large-white-bar {
+	height: 2.125em;
+	background: #fff;
+	width: 10.4375em;
+	float: left;
+	margin-left: 1em;
 }
 
 .section1 {
@@ -48,7 +71,7 @@ header {
 	height: 4.375em;
 	background: #fff;
 	margin-top: 7.375em;
-	width: 18.875em;
+	width: 24.875em;
 	height: 4.25em;
 }
 
@@ -57,8 +80,25 @@ header {
 	height: 4.375em;
 	background: #fff;
 	margin-top: 2em;
-	width: 18.875em;
+	width: 24.875em;
 	height: 4.25em;
+}
+
+.left-gray-border {
+	width: 4em;
+	height: 3.5em;
+	background: #616E7F;
+	border-top: 0.75em solid #fff;
+	float: left;
+}
+
+.right-gray-border {
+	background: #616E7F;
+	height: 3.25em;
+	width: 20em;
+	border-bottom: 1em solid white;
+	float: right;
+	border-right: 0.3em solid white;
 }
 
 .para-section {
@@ -75,15 +115,40 @@ header {
 .big-white {
 	background: white;
 	margin: 0 1em;
-	height: 13.5em;
+	height: 12.5em;
+	padding-top: 1em;
+}
+
+.grey-square {
+	margin: 0 auto;
+	background: #C7D2D8;
+	height: 3.875em;
+	width: 3.875em;
+}
+
+.grey-rectangle1 {
+	background: #C7D2D8;
+	height: 1.4375em;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 1em;
+}
+
+.grey-rectangle2 {
+	background: #C7D2D8;
+	height: 4em;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 1em;
 }
 
 .big-white2 {
 	background: white;
 	margin: 0 1em;
 	margin-top: 2em;
+	padding-top: 1em;
 	color: #fff;
-	height: 13.5em;
+	height: 12.5em;
 }
 
 .bottom-section {
