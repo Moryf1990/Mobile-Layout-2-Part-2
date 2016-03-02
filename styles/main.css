@@ -191,7 +191,9 @@ span {
 }
 
 .bottom-section {
-	height: 10.625em;
+	/*height: 10.625em;*/
+	height: 100%;
+	padding: 0.5em 0;
 	background: #E8F0F5;
 }
 
@@ -201,6 +203,16 @@ span {
 	background: #1E8CBE;
 	border: none;
 	margin-top: 6.125em;
+}
+
+button  h3 {
+	color: #fff;
+	font-size: 1.5em;
+}
+
+.wordpress {
+	font-size: 2em;
+	color: #314156;
 }
 
 .footer {
