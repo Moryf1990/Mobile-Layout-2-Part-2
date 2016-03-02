@@ -14,7 +14,7 @@ header > a {
 	background: #0070A3;
 	text-decoration: none;
 	display: inline-block;
-	padding: 2.1em;
+	padding: 3em;
 }
 
 span {
@@ -29,9 +29,9 @@ span {
 }
 
 .small-white-bar {
-	height: 2.125em;
-	background: #fff;
-	width: 2em;
+	background-image: url("../images/logo.png");
+	height: 3.6em;
+	width: 3.6em;
 	float: left;
 }
 
@@ -39,7 +39,9 @@ span {
 	height: 2.125em;
 	background: #118BC0;
 	/*background: #fff;*/
-	text-align: center;
+	margin-top: 1em;
+	text-align: left;
+	margin-left: 1em;
 	font-size: 1.5em;
 	color: #fff;
 	width: 10.4375em;
@@ -48,8 +50,10 @@ span {
 
 .section1 {
 	height: 75em;
-	background: #344051;
+	/*background: #344051;*/
 	padding-top: 4em;
+	background-image: url("../images/crowd.jpg");
+	background-size: 100%;
 }
 
 .title {
@@ -88,12 +92,11 @@ span {
 	margin: 0 auto;
 	overflow: hidden;
 }
+
 .feature-wrapper section {
  overflow: hidden;
  margin-bottom: 1em;
 }
-
-
 
 .image-text2 {
 	margin: 0 auto;
@@ -104,11 +107,36 @@ span {
 	/*padding: .5em;*/
 }
 
-.left-gray-border {
+.left-gray-border1 {
 	width: 4em;
 	height: 6em;
 	/*padding: 1em;*/
-	background: #fff;
+	/*background: #fff;*/
+	margin-top: 1em;
+	background-image: url("../images/tablet.png");
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.left-gray-border2 {
+	width: 4em;
+	height: 6em;
+	/*padding: 1em;*/
+	margin-top: 1em;
+	/*background: #fff;*/
+	background-image: url("../images/newspaper.png");
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.left-gray-border3 {
+	width: 4em;
+	margin-top: 1em;
+	height: 6em;
+	/*padding: 1em;*/
+	background-image: url("../images/paint-brush.png");
+	background-repeat: no-repeat;
+	/*background: #fff;*/
 	float: left;
 }
 
