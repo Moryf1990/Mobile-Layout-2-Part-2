@@ -3,16 +3,25 @@ body {
 }
 
 header {
-	height: 3em;
 	background: #0070A4;
+	background: #118BC0;
+	text-align: right;
+	color: #fff;
+	overflow: hidden;
+}
+
+header > a {
+	background: #0070A3;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1.5em;
 }
 
 .light-blue-header {
 	background: #118BC0;
-	height: 3em;
-	margin-right: 4.625em;
-	padding-left: 1em;
-	padding-top: 0.5em;
+	/*margin-right: 4.625em;*/
+	padding: 1em;
+	float: left;
 }
 
 .small-white-bar {
