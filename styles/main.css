@@ -23,7 +23,6 @@ span {
 
 .light-blue-header {
 	background: #118BC0;
-	/*margin-right: 4.625em;*/
 	padding: 1em;
 	float: left;
 }
@@ -38,7 +37,6 @@ span {
 .large-white-bar {
 	height: 2.125em;
 	background: #118BC0;
-	/*background: #fff;*/
 	margin-top: 1em;
 	text-align: left;
 	margin-left: 1em;
@@ -50,7 +48,6 @@ span {
 
 .section1 {
 	height: 75em;
-	/*background: #344051;*/
 	padding-top: 4em;
 	background-image: url("../images/crowd.jpg");
 	background-size: 100%;
@@ -74,16 +71,20 @@ span {
 	background: #1E8CBE;
 	width: 13em;
 	margin: 0 auto;
-	border: 12px solid #212934;
+	box-shadow: 0 0 0 1em rgba(0,0,0,.2);
 	margin-top: 5em;
 }
 
 .arrow {
-	height: 1.3125em;
-	width: 3em;
-	margin: 0 auto;
-	background: #fff;
-	margin-top: 13.25em;
+	text-align: center;
+	font-size: 2em;
+	color: #fff;
+	font-weight: bold;
+	margin-top: 7.25em;
+}
+
+.fa {
+	color: #fff;
 }
 
 .feature-wrapper {
@@ -94,8 +95,8 @@ span {
 }
 
 .feature-wrapper section {
- overflow: hidden;
- margin-bottom: 1em;
+	 overflow: hidden;
+	 margin-bottom: 1em;
 }
 
 .image-text2 {
@@ -104,14 +105,11 @@ span {
 	width: 24.875em;
 	background-color: red;
 	overflow: hidden;
-	/*padding: .5em;*/
 }
 
 .left-gray-border1 {
 	width: 4em;
 	height: 6em;
-	/*padding: 1em;*/
-	/*background: #fff;*/
 	margin-top: 1em;
 	background-image: url("../images/tablet.png");
 	background-repeat: no-repeat;
@@ -121,9 +119,7 @@ span {
 .left-gray-border2 {
 	width: 4em;
 	height: 6em;
-	/*padding: 1em;*/
 	margin-top: 1em;
-	/*background: #fff;*/
 	background-image: url("../images/newspaper.png");
 	background-repeat: no-repeat;
 	float: left;
@@ -133,10 +129,8 @@ span {
 	width: 4em;
 	margin-top: 1em;
 	height: 6em;
-	/*padding: 1em;*/
 	background-image: url("../images/paint-brush.png");
 	background-repeat: no-repeat;
-	/*background: #fff;*/
 	float: left;
 }
 
@@ -145,17 +139,14 @@ span {
 }
 
 .right-gray-border  {
-	/*border-bottom: 1em solid white;*/
 	float: left;
 	width: 19em;	
 	color: #fff;
 	margin-left: 2em ;
-	/*border-right: 0.3em solid white;*/
 }
 
 .para-section {
 	padding-top: 1em;
-	/*height: 11.875em;*/
 	background: #E8F0F5;
 	height: 100%;
 }
@@ -191,7 +182,6 @@ span {
 }
 
 .grey-rectangle1 {
-	/*background: #C7D2D8;*/
 	text-align: center;
 	color: #426277;
 	font-weight: bold;
@@ -202,7 +192,6 @@ span {
 }
 
 .grey-rectangle2 {
-	/*background: #C7D2D8;*/
 	height: 4em;
 	text-align: center;
 	font-size: 1.2em;
@@ -222,7 +211,6 @@ span {
 }
 
 .bottom-section {
-	/*height: 10.625em;*/
 	height: 100%;
 	padding: 0.5em 0;
 	background: #E8F0F5;
@@ -258,22 +246,3 @@ a {
 	margin-left: 1em;
 }
 
-/*.automattic {
-	height: 100%;
-	background: #fff;
-	background-image: url("../images/automattic.png");
-	background-repeat: no-repeat;
-	width: 100%;
-	margin-top: 2em;
-}*/
-
-/*.div {
-	height: 4em;
-	background: #fff;
-}
-
-.div2 {
-	height: 4em;
-	background: #fff;
-	margin-top: 4em;
-}*/
