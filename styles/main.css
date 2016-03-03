@@ -49,8 +49,10 @@ span {
 .section1 {
 	height: 75em;
 	padding-top: 4em;
-	background-image: url("../images/crowd.jpg");
-	background-size: 100%;
+	/*background-image: url("../images/crowd.jpg");*/
+	background: url("../images/crowd.jpg") 0 0 no-repeat;
+	background-size: cover;
+	/*background-size: 100%;*/
 }
 
 .title {
