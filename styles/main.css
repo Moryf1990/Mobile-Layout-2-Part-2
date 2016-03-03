@@ -246,3 +246,6 @@ a {
 	margin-left: 1em;
 }
 
+footer > a {
+	text-decoration: none;
+}
